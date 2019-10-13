@@ -1,13 +1,13 @@
 const mongoose = require('mongoose');
 
 const userSchema = new mongoose.Schema({
-    name:{
+    name: {
         type: String,
         required: true,
         min: 6,
         max: 50,
     },
-    email:{
+    email: {
         type: String,
         required: true,
         min: 5,
@@ -19,7 +19,7 @@ const userSchema = new mongoose.Schema({
         max: 1024,
         min: 6
     },
-    date:{
+    date: {
         type: Date,
         defaul: Date.now
     }
