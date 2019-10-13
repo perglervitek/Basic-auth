@@ -1,0 +1,2 @@
+# Karticky
+Anglicke karticky
