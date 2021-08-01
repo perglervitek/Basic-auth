@@ -1,2 +1,2 @@
-# Karticky
-Anglicke karticky
+# NODE basic auth
+Basic auth
